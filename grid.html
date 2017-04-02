@@ -1,0 +1,223 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="gridy.css">
+<meta charset="UTF-8">
+<title>SkyLine</title>
+</head>
+
+<body>
+<div class="flex-container">
+<ul class="topnav">
+<img style="width:3vw" src="applogo.jpg">
+  <li class="right"><a href="#home">Home</a></li>
+  <li class="right"><a href="#info">Information</a></li>
+  <li class="right"><a href="#ptype">Prototype</a></li>
+  <li class="right"><a href="#about">About</a></li>
+</ul>
+
+<div style="padding:0 16px;">
+
+</div>
+<a name="home"></a>
+<img src="welcome.jpg">
+
+<div class="row">
+<div class="col-12">
+<div class="col-12">
+
+	</div>
+</div>
+<a name="about"></a>
+<div class="col-6">
+<div class="flex-item">
+<div class="title">
+<img src="img1a.jpg">
+</div>
+</div>
+</div>
+
+<div class="col-1">
+	
+</div>
+
+<div class="col-5">
+   <div class="flex-item">
+     <p style="font-size: 3.7vw; margin-top: 3vw; margin-left: 1vw; margin-right: 2vw;">Welcome to SkyLine.</p>
+     <p style="font-size: 1.5vw; margin-left: 2vw; margin-right: 3vw;">SkyLine is an app that allows you to put your schedule into the upcoming weather week so that it can show you a animation of what your upcoming day/week will look like. It will have the standard weather and temperature but it will also suggest clothing choices you should make, have tips on if you should leave 10 mins early to miss the rain. You can put in your hobbies and favourite clothing peices so it will alert you if it's a good day to go swimming, or to wear those thick leather pants you love.</p>
+	
+<p style="font-size: 1.5vw; margin-bottom: 1vw; margin-left: 2vw; margin-right: 3vw;">We want to help you to visualize what your day is going to be like, so if your little cartoon version of yourself is wearing a raincoat at 5, you will think about taking a raincoat with you to work.  Rather than have the information but not take into account that you will be walking home at 5 when it is scheduled to rain. 
+</p>
+	</div>
+</div>
+	<a name="ptype"></a>
+
+	<div class="col-12">
+   <div class="flex-item">
+<div class="br">
+ <p style="margin-bottom: 12vw; margin-top: 9vw; margin-left: 20vw;">This app helps you to visualise your week. <br> More than your average weather app. <br> More than a planner.</p>
+	</div>
+</div>
+	</div>
+    
+    
+	<div class="col-12">
+   <div class="flex-item">
+ 
+<div class="content display-container">
+  <img class="mySlides" src="slide1.jpg" style="width:100%">
+  <img class="mySlides" src="slide2.jpg" style="width:100%">
+  <img class="mySlides" src="slide3.jpg" style="width:100%">
+  <img class="mySlides" src="slide4.jpg" style="width:100%">
+    <img class="mySlides" src="slide5.jpg" style="width:100%">
+  <img class="mySlides" src="slide6.jpg" style="width:100%">
+  <img class="mySlides" src="slide7.jpg" style="width:100%">
+  <img class="mySlides" src="slide8.jpg" style="width:100%">
+  <img class="mySlides" src="slide9.jpg" style="width:100%">
+
+
+  <button class="button white display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="button white display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+		</div>
+	</div>
+    
+	
+
+<div style="background-color:aliceblue" class="col-6">
+      <div style="background-color:aliceblue" class="flex-item">
+     <p style="font-size: 3vw; margin-top: 8vw; margin-left: 1.7vw; margin-right: 2vw;">Prototype Video.</p>
+     
+	
+<p style="font-size: 2.5vw; margin-bottom: 16vw; margin-left: 2.7vw; margin-right: 3vw;">We want to help you to visualize what your day is going to be like, so here is a video to help you visualise what using our app looks like.
+</p>
+	</div>
+</div>
+
+
+
+<div style="background-color:aliceblue" class="col-6">
+<div style="background-color:aliceblue"class="flex-item">
+<div class="title">
+<video style="margin-left:10vw" width="280vw" controls>
+  <source src="352.mp4" type="video/mp4">
+  
+  Your browser does not support HTML5 video.
+</video>
+</div>
+</div>
+</div>
+
+<a name="info"></a>
+
+<div class="col-12">
+   <div class="flex-item">
+<p style="font-size: 3vw; margin-top: 1vw; margin-bottom: 1vw;  margin-left: 2vw;">Journey Maps.</p>
+   <p style="font-size: 2.5vw; margin-left: 2vw;">Overview and app layout. </p>
+     <p style="font-size: 2.5vw; margin-left: 2vw;">These two maps show the journey of the app usage.</p>
+	<br>
+	<br>
+  
+	</div>
+</div>
+<div class="col-6">
+   <div class="flex-item">
+<div class="jm">
+  <img src="journeym1.jpg">
+
+	</div>
+</div>
+	</div>
+	
+	<div class="col-6">
+   <div class="flex-item">
+<div class="jm">
+  <img src="jmap.jpg">
+	</div>
+</div>
+	</div>
+    
+
+
+<div class="col-12">
+   <div class="flex-item">
+<p style="font-size: 3vw; margin-top: 1vw; margin-bottom: 1vw;  margin-left: 2vw;">User Personas.</p>
+ <p style="font-size: 2.4vw; margin-bottom: 0.3vw; margin-left: 2vw;">Brief insight into who uses SkyLine and why.</p>
+  
+	</div>
+</div>
+<div class="col-4">
+   <div class="flex-item">
+<div class="up">
+  <img src="persona1.jpg">
+
+	</div>
+</div>
+	</div>
+	
+	<div class="col-4">
+   <div class="flex-item">
+<div class="up">
+  <img src="user2.jpg">
+	</div>
+</div>
+	</div>
+    <div class="col-4">
+   <div class="flex-item">
+<div class="up">
+  <img src="user3.jpg">
+	</div>
+</div>
+	</div>
+    
+    
+    
+<div style="background-color:aliceblue" class="col-12">
+   <div style="background-color:aliceblue" class="flex-item">
+ <p style="font-size: 2.4vw; margin-bottom: 2vw; margin-left: 2vw;">Thankyou for visiting SkyLine. <br> Sign up for more information below.</p>
+  
+  </div>
+  </div>
+    
+
+<div style="background-color:aliceblue" class="col-12">
+  <div style="background-color:aliceblue" class="flex-item">
+<p style="text-align:center" "padding:1vw;" >Subscribe to updates</p>
+<div style="text-align:center" id="subscribe-form">
+<form>
+<div id="field">
+ <input type="text" placeholder="Enter email address" class="text email-input" />
+</div>
+<div class="actions">
+<input type="submit" value="Subscribe" class="action" />
+</div>
+</form>
+</div>
+</div>
+
+
+
+</div>
+</div>
+</body>
+</html>
